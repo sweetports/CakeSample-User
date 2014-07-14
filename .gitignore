@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 .idea/
 .idea/*.xml
+.DS_Store
 =======
 tmp/*
 [Cc]onfig/core.php
