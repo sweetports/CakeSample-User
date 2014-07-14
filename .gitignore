@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 .idea/
+.idea/*.xml
 =======
 tmp/*
 [Cc]onfig/core.php
