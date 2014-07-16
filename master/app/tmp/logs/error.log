@@ -1,0 +1,893 @@
+2014-06-23 11:41:50 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/login
+Stack Trace:
+#0 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 11:42:13 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/login
+Stack Trace:
+#0 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 11:42:29 Error: [MissingViewException] View file "/home/admusr/htdocs/app/View/Admins/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/admusr/htdocs/app/View/Admins/login.ctp',
+)
+Request URL: /admins/login
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 11:42:40 Error: [MissingTableException] Table admins for model Admin was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'admins',
+  'class' => 'Admin',
+  'ds' => 'default',
+)
+Request URL: /admins/login
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/Model/Model.php(3504): Model->setSource('admins')
+#1 /home/admusr/htdocs/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /home/admusr/htdocs/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /home/admusr/htdocs/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('Admin', 'fields')
+#4 /home/admusr/htdocs/app/View/Admins/login.ctp(16): FormHelper->create('Admin', Array)
+#5 /home/admusr/htdocs/lib/Cake/View/View.php(948): include('/home/admusr/ht...')
+#6 /home/admusr/htdocs/lib/Cake/View/View.php(910): View->_evaluate('/home/admusr/ht...', Array)
+#7 /home/admusr/htdocs/lib/Cake/View/View.php(471): View->_render('/home/admusr/ht...')
+#8 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#9 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#11 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-23 11:43:17 Error: [MissingTableException] Table admins for model Admin was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'admins',
+  'class' => 'Admin',
+  'ds' => 'default',
+)
+Request URL: /admins/login
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/Model/Model.php(3504): Model->setSource('admins')
+#1 /home/admusr/htdocs/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /home/admusr/htdocs/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /home/admusr/htdocs/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('Admin', 'fields')
+#4 /home/admusr/htdocs/app/View/Admins/login.ctp(16): FormHelper->create('Admin', Array)
+#5 /home/admusr/htdocs/lib/Cake/View/View.php(948): include('/home/admusr/ht...')
+#6 /home/admusr/htdocs/lib/Cake/View/View.php(910): View->_evaluate('/home/admusr/ht...', Array)
+#7 /home/admusr/htdocs/lib/Cake/View/View.php(471): View->_render('/home/admusr/ht...')
+#8 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#9 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#11 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-23 11:44:14 Error: [MissingTableException] Table admins for model Admin was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'admins',
+  'class' => 'Admin',
+  'ds' => 'default',
+)
+Request URL: /admins/login
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/Model/Model.php(3504): Model->setSource('admins')
+#1 /home/admusr/htdocs/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /home/admusr/htdocs/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /home/admusr/htdocs/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('Admin', 'fields')
+#4 /home/admusr/htdocs/app/View/Admins/login.ctp(16): FormHelper->create('Admin', Array)
+#5 /home/admusr/htdocs/lib/Cake/View/View.php(948): include('/home/admusr/ht...')
+#6 /home/admusr/htdocs/lib/Cake/View/View.php(910): View->_evaluate('/home/admusr/ht...', Array)
+#7 /home/admusr/htdocs/lib/Cake/View/View.php(471): View->_render('/home/admusr/ht...')
+#8 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#9 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#11 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-23 11:44:46 Error: [MissingTableException] Table admins for model Admin was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'admins',
+  'class' => 'Admin',
+  'ds' => 'default',
+)
+Request URL: /admins/login
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/Model/Model.php(3504): Model->setSource('admins')
+#1 /home/admusr/htdocs/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /home/admusr/htdocs/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /home/admusr/htdocs/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('Admin', 'fields')
+#4 /home/admusr/htdocs/app/View/Admins/login.ctp(16): FormHelper->create('Admin', Array)
+#5 /home/admusr/htdocs/lib/Cake/View/View.php(948): include('/home/admusr/ht...')
+#6 /home/admusr/htdocs/lib/Cake/View/View.php(910): View->_evaluate('/home/admusr/ht...', Array)
+#7 /home/admusr/htdocs/lib/Cake/View/View.php(471): View->_render('/home/admusr/ht...')
+#8 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#9 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#11 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-23 11:45:20 Error: [MissingTableException] Table admins for model Admin was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'admins',
+  'class' => 'Admin',
+  'ds' => 'default',
+)
+Request URL: /admins/login
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/Model/Model.php(3504): Model->setSource('admins')
+#1 /home/admusr/htdocs/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /home/admusr/htdocs/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /home/admusr/htdocs/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('Admin', 'fields')
+#4 /home/admusr/htdocs/app/View/Admins/login.ctp(16): FormHelper->create('Admin', Array)
+#5 /home/admusr/htdocs/lib/Cake/View/View.php(948): include('/home/admusr/ht...')
+#6 /home/admusr/htdocs/lib/Cake/View/View.php(910): View->_evaluate('/home/admusr/ht...', Array)
+#7 /home/admusr/htdocs/lib/Cake/View/View.php(471): View->_render('/home/admusr/ht...')
+#8 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#9 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#11 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-23 11:47:00 Error: [MissingLayoutException] Layout file "/home/admusr/htdocs/app/View/Layouts/mypage.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/admusr/htdocs/app/View/Layouts/mypage.ctp',
+)
+Request URL: /admins/login
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/View/View.php(510): View->_getLayoutFileName('mypage')
+#1 /home/admusr/htdocs/lib/Cake/View/View.php(479): View->renderLayout('', 'mypage')
+#2 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#3 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#4 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#5 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-06-23 11:54:57 Error: [MissingLayoutException] Layout file "/home/admusr/htdocs/app/View/Layouts/mypage.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/admusr/htdocs/app/View/Layouts/mypage.ctp',
+)
+Request URL: /admins/login
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/View/View.php(510): View->_getLayoutFileName('mypage')
+#1 /home/admusr/htdocs/lib/Cake/View/View.php(479): View->renderLayout('', 'mypage')
+#2 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#3 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#4 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#5 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-06-23 12:07:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/signin.css
+Stack Trace:
+#0 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 12:32:24 Error: [MissingControllerException] Controller class AdminsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminsController',
+  'plugin' => NULL,
+)
+Request URL: /admins/index
+Stack Trace:
+#0 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 12:33:24 Error: [MissingLayoutException] Layout file "/home/admusr/htdocs/app/View/Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/admusr/htdocs/app/View/Layouts/admin.ctp',
+)
+Request URL: /admins/index
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/View/View.php(510): View->_getLayoutFileName('admin')
+#1 /home/admusr/htdocs/lib/Cake/View/View.php(479): View->renderLayout('', 'admin')
+#2 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#3 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#4 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#5 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-06-23 15:32:59 Error: [MissingControllerException] Controller class InformationController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationController',
+  'plugin' => NULL,
+)
+Request URL: /information
+Stack Trace:
+#0 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 10:41:21 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /informations
+Stack Trace:
+#0 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 12:24:31 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Information), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->save(Array)
+#6 [internal function]: InformationController->add()
+#7 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#8 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#10 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-24 13:01:35 Error: [MissingTableException] Table attachments for model Attachment was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'attachments',
+  'class' => 'Attachment',
+  'ds' => 'default',
+)
+Request URL: /information/add
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/Model/Model.php(3504): Model->setSource('attachments')
+#1 /home/admusr/htdocs/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /home/admusr/htdocs/lib/Cake/Model/Model.php(1222): Model->schema()
+#3 /home/admusr/htdocs/lib/Cake/Model/Model.php(1185): Model->_setAliasData(Array)
+#4 /home/admusr/htdocs/lib/Cake/Model/ModelValidator.php(214): Model->set(Array)
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2295): ModelValidator->validateMany(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/ModelValidator.php(162): Model->validateMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2530): ModelValidator->validateAssociated(Array, Array)
+#8 /home/admusr/htdocs/lib/Cake/Model/Model.php(2344): Model->validateAssociated(Array, Array)
+#9 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#10 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#11 [internal function]: InformationController->add()
+#12 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#13 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#15 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-06-24 13:02:12 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:02:27 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:05:55 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:09:32 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(57): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:16:36 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(57): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:16:53 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(57): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:18:29 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(57): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:23:23 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:23:26 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:23:42 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:31:30 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:31:32 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:31:35 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:31:51 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:35:42 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:36:11 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:48:41 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(54): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:51:04 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(57): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:52:00 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:52:07 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:53:11 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:53:31 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:54:40 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 13:57:15 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 14:03:58 Error: [UploadException] Unable to upload file
+Request URL: /information/edit/34
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(80): Model->saveAll(Array)
+#9 [internal function]: InformationController->edit('34')
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 14:04:21 Error: [UploadException] Unable to upload file
+Request URL: /information/edit/34
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(80): Model->saveAll(Array)
+#9 [internal function]: InformationController->edit('34')
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 14:06:12 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 14:07:14 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 14:07:41 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 14:07:49 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 14:08:07 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 14:11:12 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 14:11:24 Error: [UploadException] Unable to upload file
+Request URL: /information/add
+Stack Trace:
+#0 [internal function]: UploadBehavior->afterSave(Object(Attachment), true, Array)
+#1 /home/admusr/htdocs/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#2 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#3 /home/admusr/htdocs/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#4 /home/admusr/htdocs/lib/Cake/Model/Model.php(1863): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /home/admusr/htdocs/lib/Cake/Model/Model.php(2242): Model->save(Array, Array)
+#6 /home/admusr/htdocs/lib/Cake/Model/Model.php(2451): Model->saveMany(Array, Array)
+#7 /home/admusr/htdocs/lib/Cake/Model/Model.php(2180): Model->saveAssociated(Array, Array)
+#8 /home/admusr/htdocs/app/Controller/InformationController.php(58): Model->saveAll(Array)
+#9 [internal function]: InformationController->add()
+#10 /home/admusr/htdocs/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformationController), Array)
+#11 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /home/admusr/htdocs/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(InformationController), Object(CakeRequest))
+#13 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-24 14:55:22 Error: Fatal Error (1): Call to a member function createWithAttachments() on a non-object in [/home/admusr/htdocs/app/Controller/InformationController.php, line 56]
+2014-06-24 14:55:22 Error: [FatalErrorException] Call to a member function createWithAttachments() on a non-object
+Request URL: /information/add
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/admusr/ht...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/admusr/ht...', 56, Array)
+#2 /home/admusr/htdocs/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/admusr/ht...', 56, Array)
+#3 /home/admusr/htdocs/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-24 14:56:49 Error: Fatal Error (1): Call to a member function createWithAttachments() on a non-object in [/home/admusr/htdocs/app/Controller/InformationController.php, line 56]
+2014-06-24 14:56:49 Error: [FatalErrorException] Call to a member function createWithAttachments() on a non-object
+Request URL: /information/add
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/admusr/ht...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/admusr/ht...', 56, Array)
+#2 /home/admusr/htdocs/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/admusr/ht...', 56, Array)
+#3 /home/admusr/htdocs/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-24 14:57:01 Error: Fatal Error (1): Call to a member function createWithAttachments() on a non-object in [/home/admusr/htdocs/app/Controller/InformationController.php, line 56]
+2014-06-24 14:57:01 Error: [FatalErrorException] Call to a member function createWithAttachments() on a non-object
+Request URL: /information/add
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/admusr/ht...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/admusr/ht...', 56, Array)
+#2 /home/admusr/htdocs/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/admusr/ht...', 56, Array)
+#3 /home/admusr/htdocs/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-24 14:58:16 Error: [MissingControllerException] Controller class InformationController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationController',
+  'plugin' => NULL,
+)
+Request URL: /information/add
+Stack Trace:
+#0 /home/admusr/htdocs/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-24 14:58:55 Error: Fatal Error (1): Call to undefined method InformationController::createWithAttachments() in [/home/admusr/htdocs/app/Controller/InformationController.php, line 56]
+2014-06-24 14:58:55 Error: [FatalErrorException] Call to undefined method InformationController::createWithAttachments()
+Request URL: /information/add
+Stack Trace:
+#0 /home/admusr/htdocs/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/admusr/ht...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/admusr/ht...', 56, Array)
+#2 /home/admusr/htdocs/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/admusr/ht...', 56, Array)
+#3 /home/admusr/htdocs/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
